@@ -1,8 +1,10 @@
 # short_url
 
+pip install -r url_shortner/requirements.txt
+
 Run python manage.py migrate to create the shortener models
 
-create testing short url by http://127.0.0.1:8000/url_short/test/<url>
+create testing short url by http://127.0.0.1:8000/url_short/test/<url>/
 
 use http://127.0.0.1:8000/url_short/<shortcode>/ to be redirected
 
